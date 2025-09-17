@@ -1,4 +1,4 @@
-# 📊 MetaSync Dashboard
+# 📊 Mean Reversion Trading Signal for Forex Markets
 
 > **A high-performance mean reversion trading system for forex markets**
 
