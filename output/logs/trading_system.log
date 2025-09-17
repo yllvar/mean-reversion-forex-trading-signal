@@ -1,0 +1,935 @@
+2025-09-17 16:01:38,376 - __main__ - INFO - Scheduled to run every minute
+2025-09-17 16:01:38,376 - __main__ - INFO - Next run at: 2025-09-17 08:02:00 UTC (in 21s)
+2025-09-17 16:02:00,460 - __main__ - INFO - 
+==================================================
+2025-09-17 16:02:00,462 - __main__ - INFO - Running strategy (Run #1) - 2025-09-17 08:02:00 UTC
+2025-09-17 16:02:00,462 - __main__ - INFO - Fetching 1min data for 7 symbols...
+2025-09-17 16:02:00,463 - data_fetcher - ERROR - Error fetching data for EUR/USD: name 'BASE_URL' is not defined
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 377, in fetch_all_data
+    data = fetch_ohlcv(symbol, interval=interval, use_cache=use_cache)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 239, in fetch_ohlcv
+    url = f"{BASE_URL}/time_series"
+             ^^^^^^^^
+NameError: name 'BASE_URL' is not defined
+2025-09-17 16:02:00,470 - data_fetcher - ERROR - Error fetching data for GBP/USD: name 'BASE_URL' is not defined
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 377, in fetch_all_data
+    data = fetch_ohlcv(symbol, interval=interval, use_cache=use_cache)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 239, in fetch_ohlcv
+    url = f"{BASE_URL}/time_series"
+             ^^^^^^^^
+NameError: name 'BASE_URL' is not defined
+2025-09-17 16:02:00,473 - data_fetcher - ERROR - Error fetching data for USD/JPY: name 'BASE_URL' is not defined
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 377, in fetch_all_data
+    data = fetch_ohlcv(symbol, interval=interval, use_cache=use_cache)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 239, in fetch_ohlcv
+    url = f"{BASE_URL}/time_series"
+             ^^^^^^^^
+NameError: name 'BASE_URL' is not defined
+2025-09-17 16:02:00,475 - data_fetcher - ERROR - Error fetching data for USD/CHF: name 'BASE_URL' is not defined
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 377, in fetch_all_data
+    data = fetch_ohlcv(symbol, interval=interval, use_cache=use_cache)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 239, in fetch_ohlcv
+    url = f"{BASE_URL}/time_series"
+             ^^^^^^^^
+NameError: name 'BASE_URL' is not defined
+2025-09-17 16:02:00,477 - data_fetcher - ERROR - Error fetching data for AUD/USD: name 'BASE_URL' is not defined
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 377, in fetch_all_data
+    data = fetch_ohlcv(symbol, interval=interval, use_cache=use_cache)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 239, in fetch_ohlcv
+    url = f"{BASE_URL}/time_series"
+             ^^^^^^^^
+NameError: name 'BASE_URL' is not defined
+2025-09-17 16:02:00,479 - data_fetcher - ERROR - Error fetching data for NZD/USD: name 'BASE_URL' is not defined
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 377, in fetch_all_data
+    data = fetch_ohlcv(symbol, interval=interval, use_cache=use_cache)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 239, in fetch_ohlcv
+    url = f"{BASE_URL}/time_series"
+             ^^^^^^^^
+NameError: name 'BASE_URL' is not defined
+2025-09-17 16:02:00,482 - data_fetcher - ERROR - Error fetching data for USD/CAD: name 'BASE_URL' is not defined
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 377, in fetch_all_data
+    data = fetch_ohlcv(symbol, interval=interval, use_cache=use_cache)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Metasync-Dashboard/data_fetcher.py", line 239, in fetch_ohlcv
+    url = f"{BASE_URL}/time_series"
+             ^^^^^^^^
+NameError: name 'BASE_URL' is not defined
+2025-09-17 16:02:00,483 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:02:04,037 - __main__ - INFO - 
+Shutting down...
+2025-09-17 16:02:04,038 - __main__ - INFO - Trading bot stopped
+2025-09-17 16:03:06,076 - __main__ - INFO - Scheduled to run every minute
+2025-09-17 16:03:06,076 - __main__ - INFO - Next run at: 2025-09-17 08:04:00 UTC (in 53s)
+2025-09-17 16:04:00,364 - __main__ - INFO - 
+==================================================
+2025-09-17 16:04:00,368 - __main__ - INFO - Running strategy (Run #1) - 2025-09-17 08:04:00 UTC
+2025-09-17 16:04:00,368 - __main__ - INFO - Fetching 1min data for 7 symbols...
+2025-09-17 16:04:00,372 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:04:00,896 - data_fetcher - ERROR - No data returned for EUR/USD
+2025-09-17 16:04:08,401 - data_fetcher - INFO - Fetching GBP/USD 1min data from API...
+2025-09-17 16:04:08,607 - data_fetcher - ERROR - No data returned for GBP/USD
+2025-09-17 16:04:16,115 - data_fetcher - INFO - Fetching USD/JPY 1min data from API...
+2025-09-17 16:04:16,314 - data_fetcher - ERROR - No data returned for USD/JPY
+2025-09-17 16:04:23,819 - data_fetcher - INFO - Fetching USD/CHF 1min data from API...
+2025-09-17 16:04:24,037 - data_fetcher - ERROR - No data returned for USD/CHF
+2025-09-17 16:04:31,539 - data_fetcher - INFO - Fetching AUD/USD 1min data from API...
+2025-09-17 16:04:31,742 - data_fetcher - ERROR - No data returned for AUD/USD
+2025-09-17 16:04:39,257 - data_fetcher - INFO - Fetching NZD/USD 1min data from API...
+2025-09-17 16:04:39,455 - data_fetcher - ERROR - No data returned for NZD/USD
+2025-09-17 16:04:46,963 - data_fetcher - INFO - Fetching USD/CAD 1min data from API...
+2025-09-17 16:04:47,163 - data_fetcher - ERROR - No data returned for USD/CAD
+2025-09-17 16:04:54,679 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:05:00,714 - __main__ - INFO - 
+==================================================
+2025-09-17 16:05:00,720 - __main__ - INFO - Running strategy (Run #2) - 2025-09-17 08:05:00 UTC
+2025-09-17 16:05:00,720 - __main__ - INFO - Fetching 1min data for 7 symbols...
+2025-09-17 16:05:00,731 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:05:00,936 - data_fetcher - ERROR - No data returned for EUR/USD
+2025-09-17 16:05:08,437 - data_fetcher - INFO - Fetching GBP/USD 1min data from API...
+2025-09-17 16:05:08,636 - data_fetcher - ERROR - No data returned for GBP/USD
+2025-09-17 16:05:16,146 - data_fetcher - INFO - Fetching USD/JPY 1min data from API...
+2025-09-17 16:05:16,350 - data_fetcher - ERROR - No data returned for USD/JPY
+2025-09-17 16:05:23,858 - data_fetcher - INFO - Fetching USD/CHF 1min data from API...
+2025-09-17 16:05:24,050 - data_fetcher - ERROR - No data returned for USD/CHF
+2025-09-17 16:05:31,554 - data_fetcher - INFO - Fetching AUD/USD 1min data from API...
+2025-09-17 16:05:31,750 - data_fetcher - ERROR - No data returned for AUD/USD
+2025-09-17 16:05:39,256 - data_fetcher - INFO - Fetching NZD/USD 1min data from API...
+2025-09-17 16:05:39,465 - data_fetcher - ERROR - No data returned for NZD/USD
+2025-09-17 16:05:46,973 - data_fetcher - INFO - Fetching USD/CAD 1min data from API...
+2025-09-17 16:05:47,176 - data_fetcher - ERROR - No data returned for USD/CAD
+2025-09-17 16:05:54,679 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:06:00,701 - __main__ - INFO - 
+==================================================
+2025-09-17 16:06:00,704 - __main__ - INFO - Running strategy (Run #3) - 2025-09-17 08:06:00 UTC
+2025-09-17 16:06:00,704 - __main__ - INFO - Fetching 1min data for 7 symbols...
+2025-09-17 16:06:00,705 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:06:00,913 - data_fetcher - ERROR - No data returned for EUR/USD
+2025-09-17 16:06:08,418 - data_fetcher - INFO - Fetching GBP/USD 1min data from API...
+2025-09-17 16:06:08,619 - data_fetcher - ERROR - No data returned for GBP/USD
+2025-09-17 16:06:16,126 - data_fetcher - INFO - Fetching USD/JPY 1min data from API...
+2025-09-17 16:06:16,334 - data_fetcher - ERROR - No data returned for USD/JPY
+2025-09-17 16:06:23,843 - data_fetcher - INFO - Fetching USD/CHF 1min data from API...
+2025-09-17 16:06:24,062 - data_fetcher - ERROR - No data returned for USD/CHF
+2025-09-17 16:06:30,270 - __main__ - INFO - 
+Shutting down...
+2025-09-17 16:06:30,272 - __main__ - INFO - Trading bot stopped
+2025-09-17 16:10:15,464 - __main__ - INFO - Scheduled to run every minute
+2025-09-17 16:10:15,464 - __main__ - INFO - Next run at: 2025-09-17 08:11:00 UTC (in 44s)
+2025-09-17 16:11:00,624 - __main__ - INFO - 
+==================================================
+2025-09-17 16:11:00,630 - __main__ - INFO - Running strategy (Run #1) - 2025-09-17 08:11:00 UTC
+2025-09-17 16:11:00,630 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:11:00,638 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:11:00,638 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:11:00,977 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:11:00,977 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:11:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=L73Isi1mOkFY%2Bt%2FktGKE47wjyGbmIkDgxYaVz%2BoXoaxpcegjzzMxfnLINS1gOal5vqq6rxuxuYxrTJ3fFGxSdBvbnlvemUhOsTHhaUl711iYBElQ5szuDapFGfGr"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98072163a989f8d6-SIN'}
+2025-09-17 16:11:00,978 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:11:00,978 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:11:00,978 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:12:00,195 - __main__ - INFO - 
+==================================================
+2025-09-17 16:12:00,197 - __main__ - INFO - Running strategy (Run #2) - 2025-09-17 08:12:00 UTC
+2025-09-17 16:12:00,197 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:12:00,199 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:12:00,199 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:12:00,405 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:12:00,405 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:12:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=EgQN0TJ6Vm6I1w1405UWpgo%2BAICp7K24Agz%2FMeERdewSJZF9wULbICVT9%2FqZ1um6m9qaHYICC7faL8pMYdtyDW0L%2FMzLveqr9k52%2FQTOlu%2Ft9BDJIR74EE2Mu%2Bap"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980722d71bb9f8d6-SIN'}
+2025-09-17 16:12:00,405 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:12:00,405 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:12:00,406 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:13:00,608 - __main__ - INFO - 
+==================================================
+2025-09-17 16:13:00,610 - __main__ - INFO - Running strategy (Run #3) - 2025-09-17 08:13:00 UTC
+2025-09-17 16:13:00,610 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:13:00,617 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:13:00,618 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:13:00,821 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:13:00,821 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:13:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Dp5EpAqPIO6uhab%2F3p8kH%2FfrSJ57%2F8kLUAo7W6%2BKIinlbyVo1ldmpsAC8l%2F4rXga8h5sJ4EThKm8aWBKSCSKlPRA64kIQy3uLVWucvWKHYEWBaAmPkjnf4OVZh%2Fc"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98072450ce21f8d6-SIN'}
+2025-09-17 16:13:00,822 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:13:00,822 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:13:00,822 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:14:00,070 - __main__ - INFO - 
+==================================================
+2025-09-17 16:14:00,078 - __main__ - INFO - Running strategy (Run #4) - 2025-09-17 08:14:00 UTC
+2025-09-17 16:14:00,078 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:14:00,086 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:14:00,086 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:14:00,338 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:14:00,338 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:14:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=up4miMkQGJtZuQCF5XIIxN8Ppob7x%2BmheO5uoTkMMPzjEdAc0ykQ8v11R3ZKv%2FciiYH91YQm1JVAzCImjiWkEeiBuN9jeWf1kZvMVS3mB4cqJMCe%2FyPqXpJDcFM7"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980725c46c3df8d6-SIN'}
+2025-09-17 16:14:00,340 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:14:00,340 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:14:00,341 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:15:00,559 - __main__ - INFO - 
+==================================================
+2025-09-17 16:15:00,564 - __main__ - INFO - Running strategy (Run #5) - 2025-09-17 08:15:00 UTC
+2025-09-17 16:15:00,564 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:15:00,569 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:15:00,569 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:15:00,792 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:15:00,793 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:15:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HIEVZddbqY3GtIuz8P57LtK3KEAtjP6O7VljTIO5A4RjVyS51vB8HYpWpURNC9H8JmPvknDWbpWUZJv0uKpjEbP8RA2sXbQ75v7r0s6ZnO51uP4tdJd8SPk1BT7E"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807273e8d6df8d6-SIN'}
+2025-09-17 16:15:00,794 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:15:00,794 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:15:00,794 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:16:00,998 - __main__ - INFO - 
+==================================================
+2025-09-17 16:16:01,000 - __main__ - INFO - Running strategy (Run #6) - 2025-09-17 08:16:01 UTC
+2025-09-17 16:16:01,000 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:16:01,002 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:16:01,002 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:16:01,219 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:16:01,220 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:16:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pFA7jtQ6sWDWwErd4ZfBFeqJ1LCfaqJ0ga7tmN%2Bt8gWzCMJ8eL5WxhcuLjO7DOz%2FPw%2FjOx3qs5O0xcEgBP2F3sSQHb7j1OFUZ2dKpbNbyWay4v%2BFzX6wrao3bXz2"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980728b83a0af8d6-SIN'}
+2025-09-17 16:16:01,220 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:16:01,220 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:16:01,220 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:17:00,437 - __main__ - INFO - 
+==================================================
+2025-09-17 16:17:00,441 - __main__ - INFO - Running strategy (Run #7) - 2025-09-17 08:17:00 UTC
+2025-09-17 16:17:00,441 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:17:00,449 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:17:00,450 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:17:00,661 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:17:00,662 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:17:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rqr9DDzHz3jtygU5lImpO%2FbcX9XXKDHnJwyG8d9B6oVsBcIZBA3ONYtP7zxTv3RtxuAPmzw9Mf8QpTJG3463%2F4MU4dWMEeT4Zl2aTVY9%2FqDauXklASs7bQuyHc0j"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98072a2bca35f8d6-SIN'}
+2025-09-17 16:17:00,663 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:17:00,663 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:17:00,663 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:18:00,883 - __main__ - INFO - 
+==================================================
+2025-09-17 16:18:00,885 - __main__ - INFO - Running strategy (Run #8) - 2025-09-17 08:18:00 UTC
+2025-09-17 16:18:00,885 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:18:00,887 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:18:00,887 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:18:01,106 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:18:01,106 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:18:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rFvmwp%2B2VN68IJOTyUGlU4L9uaxvzpUGzNQZP2T9n1FVdovxGPNLlmlXZtxsUI0hEkf2X9HE9tfaa3E5PeMSX%2FEQI5cOKLnuPsdu7if6sPMIC7PRgZvTDDGStyvR"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98072ba58cb6f8d6-SIN'}
+2025-09-17 16:18:01,106 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:18:01,106 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:18:01,106 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:19:00,415 - __main__ - INFO - 
+==================================================
+2025-09-17 16:19:00,416 - __main__ - INFO - Running strategy (Run #9) - 2025-09-17 08:19:00 UTC
+2025-09-17 16:19:00,417 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:19:00,418 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:19:00,418 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:19:00,623 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:19:00,624 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:19:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MTU6lUnkDu18KcXhENIQn1%2FyZsWJ94wqlBx40wcaH%2FZD%2BYJ%2FCXnReJtzyKGHQHIz90UhjdG8T3NXgiZJQse90m8cxZShnxArRNpGiy6t6mvoyJQxjU5MxgZ7U%2Bgf"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98072d19abfcf8d6-SIN'}
+2025-09-17 16:19:00,624 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:19:00,624 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:19:00,624 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:20:00,907 - __main__ - INFO - 
+==================================================
+2025-09-17 16:20:00,918 - __main__ - INFO - Running strategy (Run #10) - 2025-09-17 08:20:00 UTC
+2025-09-17 16:20:00,918 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:20:00,920 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:20:00,920 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:20:01,130 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:20:01,130 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:20:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OBcpsMKZZ9b8e3kH0WdpMRF8pQZxVbfHeegvl%2B7TYfl6qpE2D6efOiwXONLdykd2l5G5T9wDWnKufMkJ9itCpN600CazSzzu7s271Ui%2BMZhmDU9Cy7MDCYnEhQyx"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98072e93ce18f8d6-SIN'}
+2025-09-17 16:20:01,131 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:20:01,131 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:20:01,131 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:21:00,554 - __main__ - INFO - 
+==================================================
+2025-09-17 16:21:00,556 - __main__ - INFO - Running strategy (Run #11) - 2025-09-17 08:21:00 UTC
+2025-09-17 16:21:00,556 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:21:00,557 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:21:00,557 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:21:00,762 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:21:00,762 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:21:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GWve5o2xP7b5CFtkAwiA0zTfaab%2B52xbZKYywQGFiIaMt5nwRYnGGusjKqMuHmLkeYn6oGsAGL9Xc87WexAEa6Nw7TPqVGKCnYKvtuOyiKsRxyNm4wQsHVGrxDzO"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980730088d9df8d6-SIN'}
+2025-09-17 16:21:00,763 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:21:00,763 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:21:00,763 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:22:00,163 - __main__ - INFO - 
+==================================================
+2025-09-17 16:22:00,165 - __main__ - INFO - Running strategy (Run #12) - 2025-09-17 08:22:00 UTC
+2025-09-17 16:22:00,165 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:22:00,172 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:22:00,175 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:22:00,386 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:22:00,386 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:22:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dI1m4fRPmHiNUWxQSq9wH4LYd9bz65pLCMY0se6tSTb9VHHLIMaB2baPry%2BHOZkegtIJ7B3SxacvSUh%2BghN6fmJOsrsRdnTkY9Ruk1%2BW98bqxD73nnEW2XxjhbWY"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807317d2ab9f8d6-SIN'}
+2025-09-17 16:22:00,387 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:22:00,387 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:22:00,387 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:23:00,846 - __main__ - INFO - 
+==================================================
+2025-09-17 16:23:00,850 - __main__ - INFO - Running strategy (Run #13) - 2025-09-17 08:23:00 UTC
+2025-09-17 16:23:00,850 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:23:00,852 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:23:00,853 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:23:01,071 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:23:01,072 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:23:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BNMT7yEGi8mF%2FWi2V2f8ct0JTr0HUp4p0WgeNHdjCfCwCwaRY6UpeI9NjcCUiSH0wxuTDqC7DpkgKypr%2F23FrvU2pdCGgsdvq0HaBFIqogRdayVRsOd7V5qNkZy6"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980732f87de4f8d6-SIN'}
+2025-09-17 16:23:01,072 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:23:01,073 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:23:01,073 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:24:00,530 - __main__ - INFO - 
+==================================================
+2025-09-17 16:24:00,532 - __main__ - INFO - Running strategy (Run #14) - 2025-09-17 08:24:00 UTC
+2025-09-17 16:24:00,532 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:24:00,537 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:24:00,542 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:24:00,750 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:24:00,750 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:24:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qrhxW79vxCCk%2BbKxDeZEvBC0pZEZ9aLie8Jt7v3wEmT4zkZF8sZZDq9r7qnCBpZ4Jsdj5WEXC6HuJaGUkpadooqLulqb9%2Fp2M4L42jaHXL%2FL8aK91ah7mtV76qxz"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807346d7d95f8d6-SIN'}
+2025-09-17 16:24:00,751 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:24:00,751 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:24:00,751 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:25:00,194 - __main__ - INFO - 
+==================================================
+2025-09-17 16:25:00,199 - __main__ - INFO - Running strategy (Run #15) - 2025-09-17 08:25:00 UTC
+2025-09-17 16:25:00,199 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:25:00,201 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:25:00,201 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:25:00,409 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:25:00,409 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:25:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fDGZ%2FTSVIDCr7vyB0XXg1LDLj5sFsMbMsPRL7Y%2Fjpgc9cS0ITN3DeiudEe9nZRP2iQVGSZpMGIA8JaRNEtanTQNW8tbtapreqeE%2BUWDlzf%2BOcXuqpXSqIbICV0Dj"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980735e25d97f8d6-SIN'}
+2025-09-17 16:25:00,411 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:25:00,411 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:25:00,411 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:26:00,849 - __main__ - INFO - 
+==================================================
+2025-09-17 16:26:00,851 - __main__ - INFO - Running strategy (Run #16) - 2025-09-17 08:26:00 UTC
+2025-09-17 16:26:00,851 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:26:00,864 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:26:00,865 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:26:01,061 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:26:01,061 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:26:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yz1R3zN%2B3U60DiUinb%2B8HsEQOkzvuo%2FYAhzc%2BerK4oiJZ%2FxTsYD3Qci6OxOVZ5puEnD76mZvXaJG0xH2KrLcfRBgUeAeRJD6KNS%2FnUHzdOOA1ABWa7g7QOZrLjdl"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807375d8e32f8d6-SIN'}
+2025-09-17 16:26:01,062 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:26:01,062 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:26:01,062 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:27:00,480 - __main__ - INFO - 
+==================================================
+2025-09-17 16:27:00,483 - __main__ - INFO - Running strategy (Run #17) - 2025-09-17 08:27:00 UTC
+2025-09-17 16:27:00,483 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:27:00,484 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:27:00,484 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:27:00,706 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:27:00,707 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:27:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=k3Hwf3U7d88l6IsTqib70nJQbjrjGRzPoOYChMWAio5UgprMCsL%2FKJoaIVVm7nSX4M8QMmRGQnjNrGlGljehYhZn%2BAuneR29aajbeMAXzYL%2BjPs0o1Oi5YU7h6o6"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980738d22cd4f8d6-SIN'}
+2025-09-17 16:27:00,707 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:27:00,708 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:27:00,708 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:28:00,125 - __main__ - INFO - 
+==================================================
+2025-09-17 16:28:00,128 - __main__ - INFO - Running strategy (Run #18) - 2025-09-17 08:28:00 UTC
+2025-09-17 16:28:00,128 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:28:00,130 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:28:00,131 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:28:00,334 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:28:00,334 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:28:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=go9DJsnUcqubVbGWYIKowYoY%2BrEBOL7nYEq%2BeAZy0XHta9jGYcLyIphote8n1VBIUExSUJLij9Uosp87zuCTzQ1xYWPUcdMQbqDc8314yxg8kag1K0KpN7uIHDWK"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98073a46ffd9f8d6-SIN'}
+2025-09-17 16:28:00,334 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:28:00,335 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:28:00,335 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:29:00,807 - __main__ - INFO - 
+==================================================
+2025-09-17 16:29:00,809 - __main__ - INFO - Running strategy (Run #19) - 2025-09-17 08:29:00 UTC
+2025-09-17 16:29:00,809 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:29:00,811 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:29:00,811 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:29:01,031 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:29:01,031 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:29:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=G106hLNdP20iic3W5CLUBshvv5l%2FyYtc3qftaLLUTiNIhEb2%2Fo3yIdvddiuPVtg1EtD84PLdzhaEtk%2FgF2ZjlO3jUGMjYYVSbYfizPvcQQH4X%2BP55uumHBCtKy5T"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98073bc23d7cf8d6-SIN'}
+2025-09-17 16:29:01,032 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:29:01,032 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:29:01,032 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:30:00,475 - __main__ - INFO - 
+==================================================
+2025-09-17 16:30:00,478 - __main__ - INFO - Running strategy (Run #20) - 2025-09-17 08:30:00 UTC
+2025-09-17 16:30:00,478 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:30:00,487 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:30:00,487 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:30:00,696 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:30:00,697 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:30:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0xoIRir%2FM3Srlfe3tecYwRtmILlNLiocUnUCrY5I06FxGmF8k0gwqTQdrN%2BEVCLtrr2pefOBBXlnuHinMvkWf3l%2BbVCmuuXfj9O0cyobAvAJKoRfHtn%2FZ8SA0K8z"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98073d374d6ef8d6-SIN'}
+2025-09-17 16:30:00,697 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:30:00,698 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:30:00,698 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:31:00,105 - __main__ - INFO - 
+==================================================
+2025-09-17 16:31:00,106 - __main__ - INFO - Running strategy (Run #21) - 2025-09-17 08:31:00 UTC
+2025-09-17 16:31:00,106 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:31:00,108 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:31:00,108 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:31:00,399 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:31:00,400 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:31:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FbSeRi3YsUqXDunZRRUB%2Fbqw0XyhmdvQEAoA7UepyME2oiImoaNMAARcqv%2Fyh6aZkQgeu9dYVyc1HeGJkeeEqrsDYuN5P5hGlomfBXmvzugZ7lKxT47p%2BXyhknO5"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98073eabe80ff8d6-SIN'}
+2025-09-17 16:31:00,400 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:31:00,400 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:31:00,400 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:32:00,842 - __main__ - INFO - 
+==================================================
+2025-09-17 16:32:00,846 - __main__ - INFO - Running strategy (Run #22) - 2025-09-17 08:32:00 UTC
+2025-09-17 16:32:00,846 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:32:00,847 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:32:00,847 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:32:01,092 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:32:01,092 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:32:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Z8qAun4Bg%2FZFvCDM5K98kJh2ET7g0pGCGCCjKHhmQjFbkRZOaX957gKosklOP9t8wc4xHZLCuxCe7op6DlB43KQ4ieJiaR3CvWddtbeHRVmHpGqG9BBrbQSlAszA"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980740278e55f8d6-SIN'}
+2025-09-17 16:32:01,094 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:32:01,095 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:32:01,095 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:33:00,496 - __main__ - INFO - 
+==================================================
+2025-09-17 16:33:00,499 - __main__ - INFO - Running strategy (Run #23) - 2025-09-17 08:33:00 UTC
+2025-09-17 16:33:00,499 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:33:00,501 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:33:00,501 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:33:00,723 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:33:00,724 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:33:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZmATYJIPY2NCjNX8qIb8%2FjeSwPrup%2BcOuLT9uvPx9Nyry8Wi%2FjwtH15IqpT24sfEQYviF6KlkHM%2F9xtyOWI5W4mOUkLapnFwbsWYlnUVmByUCu7CKYq814YRrgIb"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807419c5e73f8d6-SIN'}
+2025-09-17 16:33:00,724 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:33:00,724 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:33:00,724 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:34:00,137 - __main__ - INFO - 
+==================================================
+2025-09-17 16:34:00,152 - __main__ - INFO - Running strategy (Run #24) - 2025-09-17 08:34:00 UTC
+2025-09-17 16:34:00,152 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:34:00,153 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:34:00,153 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:34:00,355 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:34:00,355 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:34:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vtqUz67ABkzrgryPn574gxRuiaUSjwd%2BP%2BEhDOMRgGfgoJxhMaj%2FMjEbDov6H%2F0IJMSCfUWB0LWLeeGrDg7UThmdjPAbjCrhGS4ubrJMibnFFh%2BQz%2FNiHt%2BbFE68"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980743113d73f8d6-SIN'}
+2025-09-17 16:34:00,356 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:34:00,356 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:34:00,356 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:35:00,798 - __main__ - INFO - 
+==================================================
+2025-09-17 16:35:00,801 - __main__ - INFO - Running strategy (Run #25) - 2025-09-17 08:35:00 UTC
+2025-09-17 16:35:00,801 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:35:00,803 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:35:00,803 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:35:01,014 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:35:01,014 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:35:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FJ7t8aiYxje%2FAilriInNkqzCXEXllNINwmT8XZ0mRwT%2BzRSspflo4UfR%2BLGlyWIyS3h7dRgTFpl%2BbKzucudK3GFmNGlyJOA%2BhD%2BgUictpKaq0lEmNWB6gT83ZjqB"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807448c4e7df8d6-SIN'}
+2025-09-17 16:35:01,014 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:35:01,015 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:35:01,015 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:36:00,415 - __main__ - INFO - 
+==================================================
+2025-09-17 16:36:00,417 - __main__ - INFO - Running strategy (Run #26) - 2025-09-17 08:36:00 UTC
+2025-09-17 16:36:00,418 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:36:00,419 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:36:00,420 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:36:00,628 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:36:00,629 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:36:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ay4i%2FtSdSCXFjH2Cgc04s9YglfoN4Myaf6YxipcBC8z5oxd9mN7ol%2F0Aig5MS773ruOTG1a7i3X6Ru7PsZPySr%2F9758qpn3hA8kZ1GCSblpPNCkRB7t1I8XEvT20"}]}', 'Content-Encoding': 'br', 'CF-RAY': '98074600eeaaf8d6-SIN'}
+2025-09-17 16:36:00,629 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:36:00,629 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:36:00,629 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:37:00,036 - __main__ - INFO - 
+==================================================
+2025-09-17 16:37:00,038 - __main__ - INFO - Running strategy (Run #27) - 2025-09-17 08:37:00 UTC
+2025-09-17 16:37:00,038 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:37:00,044 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:37:00,045 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:37:00,242 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:37:00,242 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:37:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=U5uwPq6xfSNg0AyLXYD8SKQ3HSDr1KdC7JJkYBxYirwIG96I1XyYDuEvnhFl5pmT4CnKv%2B7mPpV6doFNQq1Elxysa7Nwsk6%2B8EAI1SygcYdoCvftxFyduNdlrNrz"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980747759ed4f8d6-SIN'}
+2025-09-17 16:37:00,243 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:37:00,243 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:37:00,243 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:38:00,631 - __main__ - INFO - 
+==================================================
+2025-09-17 16:38:00,634 - __main__ - INFO - Running strategy (Run #28) - 2025-09-17 08:38:00 UTC
+2025-09-17 16:38:00,634 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:38:00,638 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:38:00,640 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:38:00,853 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:38:00,854 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:38:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=y%2FioL1BIcka7qbhT0y7qNMiz%2Ffx0c%2Fj3dwNshfwZ0wEXrHru7q%2F%2FKnhbLvsh6UW6BZuHv7MF6ucbzdqLE1K%2F0zc3qEGgHok4HDUXr2FsZ9Kzjqb9fmbNYh98TDiv"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980748f05b5af8d6-SIN'}
+2025-09-17 16:38:00,854 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:38:00,855 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:38:00,855 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:54:20,640 - __main__ - INFO - 
+==================================================
+2025-09-17 16:54:20,646 - __main__ - INFO - Running strategy (Run #29) - 2025-09-17 08:54:20 UTC
+2025-09-17 16:54:20,647 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:54:20,652 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:54:20,653 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:54:20,808 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /time_series?symbol=EURUSD&interval=1min&apikey=38d9238bd23d4564a2c1f92870b9c9f4&format=JSON
+2025-09-17 16:54:21,802 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:54:21,806 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:54:22 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4L%2B3sCi9100322Tf7PpYMhlGeBzwOPF%2BR1P%2B00fDdagJWmBtt5LqHZ3c6fjcCTQOFM4kCOq8%2BFZn8FR2FTmtaBDudVO3BxijCszTYDrh6PV8v2FzIF82DpvqfsFs"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980760e3494df920-SIN'}
+2025-09-17 16:54:21,809 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:54:21,809 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:54:21,809 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 16:55:00,044 - __main__ - INFO - 
+==================================================
+2025-09-17 16:55:00,053 - __main__ - INFO - Running strategy (Run #30) - 2025-09-17 08:55:00 UTC
+2025-09-17 16:55:00,053 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 16:55:00,060 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 16:55:00,061 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 16:55:00,329 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 16:55:00,329 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 08:55:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=u9qCJknwjNPkcfqCW%2BTe8kvoXgQz9YiiHsLS3AMm1N9jvglBSGHnBEVss2dseBgcFc2fktY3Cy%2FgYJ0hZWRl%2B96SLQSMrjXo8xtyOn3mwAZMuaIKC4hB5DgUOpLw"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980761d3fb6df920-SIN'}
+2025-09-17 16:55:00,330 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:55:00,330 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 16:55:00,330 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:10:33,182 - __main__ - INFO - 
+==================================================
+2025-09-17 17:10:33,185 - __main__ - INFO - Running strategy (Run #31) - 2025-09-17 09:10:33 UTC
+2025-09-17 17:10:33,185 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:10:33,187 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:10:33,187 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:10:33,214 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /time_series?symbol=EURUSD&interval=1min&apikey=38d9238bd23d4564a2c1f92870b9c9f4&format=JSON
+2025-09-17 17:10:34,102 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:10:34,103 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:10:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HQmTGQRm%2BiGKIQFhfkeuwZCctpkwRaFAn0FceLYscPf0StTxjNWApfkoLemEv7u9g6d9agQZjMyo2nKOOE7e4kBqqTnQV9aA4tX8NoIfUqSy"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807789f7eccf934-SIN'}
+2025-09-17 17:10:34,104 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:10:34,104 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:10:34,104 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:11:00,241 - __main__ - INFO - 
+==================================================
+2025-09-17 17:11:00,245 - __main__ - INFO - Running strategy (Run #32) - 2025-09-17 09:11:00 UTC
+2025-09-17 17:11:00,245 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:11:00,246 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:11:00,247 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:11:00,451 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:11:00,452 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:11:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tVZj4OP5uMjYK%2BWiOsHHuyT2XQZMmBY080HUta%2F6VTJcndrMYH%2FGKa9dYRnMjbKlT7%2B9UdI6MEhhRK9jLNekAAaUg1brz%2B68Qu6ILy%2Bh%2FE8Q"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980779442ef2f934-SIN'}
+2025-09-17 17:11:00,453 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:11:00,453 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:11:00,453 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:26:25,904 - __main__ - INFO - 
+==================================================
+2025-09-17 17:26:25,908 - __main__ - INFO - Running strategy (Run #33) - 2025-09-17 09:26:25 UTC
+2025-09-17 17:26:25,908 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:26:25,910 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:26:25,910 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:26:35,927 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=10)")': /time_series?symbol=EURUSD&interval=1min&apikey=38d9238bd23d4564a2c1f92870b9c9f4&format=JSON
+2025-09-17 17:26:36,533 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:26:36,533 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:26:36 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Cbm94FuhA6qe9g2zLxaEDcO0Se%2FECwHb%2BtNqV5izSmF93Ra74Z1kbTk7TyWyRb7J%2BUcVh4UZLe0vkSuKq%2BsBgDtolux0%2BWsXjCyy8soj098VoOJK3JV%2FyDDQ32Mv"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807901dfb13f890-SIN'}
+2025-09-17 17:26:36,533 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:26:36,533 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:26:36,533 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:27:00,688 - __main__ - INFO - 
+==================================================
+2025-09-17 17:27:00,691 - __main__ - INFO - Running strategy (Run #34) - 2025-09-17 09:27:00 UTC
+2025-09-17 17:27:00,691 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:27:00,694 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:27:00,695 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:27:00,914 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:27:00,914 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:27:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BF9kAMMaCKsQvOARcVo3vBRsxiYcLSQF3tI4jmlPQCZ7EUrXisXnaIRGkpLv4TB2M%2F7ZtRxGtaKsYFr4%2BrWK94Mo87o24qTgR83Fhu8IOy%2FCVp0%2BZ57YZqP3MaBb"}]}', 'Content-Encoding': 'br', 'CF-RAY': '980790b70db0f890-SIN'}
+2025-09-17 17:27:00,914 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:27:00,914 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:27:00,914 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:42:34,793 - __main__ - INFO - 
+==================================================
+2025-09-17 17:42:34,794 - __main__ - INFO - Running strategy (Run #35) - 2025-09-17 09:42:34 UTC
+2025-09-17 17:42:34,794 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:42:34,794 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:42:34,794 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:42:35,100 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /time_series?symbol=EURUSD&interval=1min&apikey=38d9238bd23d4564a2c1f92870b9c9f4&format=JSON
+2025-09-17 17:42:35,875 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:42:35,875 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:42:36 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8GtnShPkj55fZHbz4N7S6iJ6r6f7AVmNEg8zUoGv5Ytp8m1VFrR9y3sSo%2F9FfruVI1wZcxnqqMnseWSmyCWckx3xgp2DhqP0lIL1IoEpl3FQ"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807a78a5f4bf892-SIN'}
+2025-09-17 17:42:35,876 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:42:35,876 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:42:35,876 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:43:00,049 - __main__ - INFO - 
+==================================================
+2025-09-17 17:43:00,051 - __main__ - INFO - Running strategy (Run #36) - 2025-09-17 09:43:00 UTC
+2025-09-17 17:43:00,051 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:43:00,052 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:43:00,053 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:43:00,618 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:43:00,619 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:43:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=94pypvstjFdNBYEeSit1hdWn0YaQQxFpc1VLbNE789e7YQiEQV0dDzpqbLvhVRfy7NiRSwGh3Z2NL7NBGtWXxGkuufm5hDuDsdxvTba59W%2Fu"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807a823ad63f892-SIN'}
+2025-09-17 17:43:00,619 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:43:00,619 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:43:00,619 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:55:59,414 - __main__ - INFO - 
+==================================================
+2025-09-17 17:55:59,415 - __main__ - INFO - Running strategy (Run #37) - 2025-09-17 09:55:59 UTC
+2025-09-17 17:55:59,415 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:55:59,415 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:55:59,415 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:56:09,437 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=10)")': /time_series?symbol=EURUSD&interval=1min&apikey=38d9238bd23d4564a2c1f92870b9c9f4&format=JSON
+2025-09-17 17:56:09,870 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:56:09,870 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:56:10 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4%2B135bsnGHwV0TeQTNU7T59Dz1c5nWZUljIJjuW2Hatw7VTeWAecyUVb1fINi8dptLqef1O2khGMFIz5WbnMqjj2d6WGhxXNY5u00mwxCYc%2BQDl%2B09RmLYI9SN0I"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807bb6989e7fe84-SIN'}
+2025-09-17 17:56:09,871 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:56:09,871 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:56:09,871 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:57:00,080 - __main__ - INFO - 
+==================================================
+2025-09-17 17:57:00,089 - __main__ - INFO - Running strategy (Run #38) - 2025-09-17 09:57:00 UTC
+2025-09-17 17:57:00,089 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:57:00,104 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:57:00,105 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:57:00,477 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:57:00,478 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:57:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=10jbMOmGvJdG8lb1osJLOf3dlafQkEkb0h3BO5IIfp5dS7NNZAnHwZNJ%2Bv7EhMLOgzu2mRGj31HTGj%2Bc07H3QInlbMWJJ%2BoMF92C9cac%2Fw7c7UN5l%2BpsQ7eB3jlf"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807bca53b7afe84-SIN'}
+2025-09-17 17:57:00,478 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:57:00,478 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:57:00,479 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:58:00,697 - __main__ - INFO - 
+==================================================
+2025-09-17 17:58:00,707 - __main__ - INFO - Running strategy (Run #39) - 2025-09-17 09:58:00 UTC
+2025-09-17 17:58:00,709 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:58:00,720 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:58:00,723 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:58:00,945 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:58:00,947 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:58:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LJ%2Ft8nl3JTn0Uk%2BleqIIYQROzi4YxstBoiLlK4gVQqBtN5%2FYn8YGBFXhFLImRvn53WqAw2CqQeubjh1FTUjaE5v0OTxhEHtZFg8sD%2BXLczJzNzYFBscsyR3Yq0XK"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807be1ffbdefe84-SIN'}
+2025-09-17 17:58:00,952 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:58:00,952 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:58:00,953 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 17:59:00,137 - __main__ - INFO - 
+==================================================
+2025-09-17 17:59:00,140 - __main__ - INFO - Running strategy (Run #40) - 2025-09-17 09:59:00 UTC
+2025-09-17 17:59:00,140 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 17:59:00,141 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 17:59:00,141 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 17:59:00,356 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 17:59:00,356 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 09:59:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nCwwZ7UBwAb8vIUrqrEaocfpzhhHX80mcF7QzLMsHkS0CWhBfo8F%2BY7BsbSoLuSkYInNsvBKvhPbLaqoEHmJ8uqQPPkJlqJMct0gp4J106fxVrPWf4i9VDkcMh7r"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807bf934f82fe84-SIN'}
+2025-09-17 17:59:00,357 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:59:00,357 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 17:59:00,357 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:00:00,558 - __main__ - INFO - 
+==================================================
+2025-09-17 18:00:00,560 - __main__ - INFO - Running strategy (Run #41) - 2025-09-17 10:00:00 UTC
+2025-09-17 18:00:00,560 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:00:00,564 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:00:00,565 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:00:00,810 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:00:00,810 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:00:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XTOWFJK92KI6ijYO9a%2FuvBW%2B5xe%2FKJ0655UFXBBh%2B8Ujrbkbmyvo11yds%2FoQs1GIV5eqZg9LacOLfw6Wm%2BXSnSU16zduKWOZDIv%2F32GHNqh0YinBpI2Qkad9LJxP"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807c10ceb13fe84-SIN'}
+2025-09-17 18:00:00,811 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:00:00,811 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:00:00,811 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:01:00,097 - __main__ - INFO - 
+==================================================
+2025-09-17 18:01:00,099 - __main__ - INFO - Running strategy (Run #42) - 2025-09-17 10:01:00 UTC
+2025-09-17 18:01:00,099 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:01:00,101 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:01:00,101 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:01:00,431 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:01:00,432 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:01:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5A8O1bkc4YbYw3NZoY5XMcDLqNYKW2v0IuxmpkNKktWaHxSnQmN7w%2F9kSAA4jYbqMACbkySvdS80ESLmiH6%2FNuKJ0UMi8PeOXHFD13GdjskkSvqUkPEkkWTqS6Ou"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807c2810cbdfe84-SIN'}
+2025-09-17 18:01:00,432 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:01:00,432 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:01:00,432 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:02:00,675 - __main__ - INFO - 
+==================================================
+2025-09-17 18:02:00,684 - __main__ - INFO - Running strategy (Run #43) - 2025-09-17 10:02:00 UTC
+2025-09-17 18:02:00,685 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:02:00,697 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:02:00,698 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:02:00,907 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:02:00,907 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:02:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5bWr3qg%2BYeQAGOpGkFzAx3n1JZ%2FpkNeRjD9Ec794%2FoDt1f3MetwqXfkWY%2FMjOH4zuOoHucQIvJF%2B42ydvE2QoTU48bNux4PuYf2%2By1ZVQuoG%2F79vt0Teb7QsYL1m"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807c3fbcb3cfe84-SIN'}
+2025-09-17 18:02:00,907 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:02:00,908 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:02:00,908 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:03:00,090 - __main__ - INFO - 
+==================================================
+2025-09-17 18:03:00,092 - __main__ - INFO - Running strategy (Run #44) - 2025-09-17 10:03:00 UTC
+2025-09-17 18:03:00,092 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:03:00,094 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:03:00,094 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:03:00,380 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:03:00,381 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:03:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fAEHsMHhmZiufNYuUWIbc7Z2i2%2FKzru18LSztzq3zIfmj%2BhhmlWm1qVZJL2rof0X7fiepC1%2Ff%2FfWROC81YADZaT%2FI%2FrAV13gUcymAF4t9gF6XfsW%2BJpiH6OcieUy"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807c56efe36fe84-SIN'}
+2025-09-17 18:03:00,382 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:03:00,382 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:03:00,383 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:04:00,591 - __main__ - INFO - 
+==================================================
+2025-09-17 18:04:00,594 - __main__ - INFO - Running strategy (Run #45) - 2025-09-17 10:04:00 UTC
+2025-09-17 18:04:00,594 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:04:00,595 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:04:00,595 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:04:00,808 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:04:00,809 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:04:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LAiLEjTRUU7v4gNZKg29VWHkfsDMj3wtC5V3dNjM530TmAOTuzn28ZwyMJMMlj7PDY0a4LPLdJFbgIM38JOoXqOIT2YIVQKkN8TcnTjKNFV1CmsUhvakZxcCcgAN"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807c6e92eb8fe84-SIN'}
+2025-09-17 18:04:00,811 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:04:00,811 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:04:00,812 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:05:00,045 - __main__ - INFO - 
+==================================================
+2025-09-17 18:05:00,050 - __main__ - INFO - Running strategy (Run #46) - 2025-09-17 10:05:00 UTC
+2025-09-17 18:05:00,050 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:05:00,052 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:05:00,052 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:05:00,408 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:05:00,408 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:05:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hJHHzw6xofdL4TzE%2BaQfyOzkwktvVFbzxC8JTrJurz2%2BfH8Eilcs0ZRj%2Bn1zjEhGI2Z8382hhvV820N6kUTiq1PgiVsNHWSG4RHxCp%2BfQ2U3KmNKsc8CxlluOYZW"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807c85dab9ffe84-SIN'}
+2025-09-17 18:05:00,409 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:05:00,409 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:05:00,409 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:06:00,610 - __main__ - INFO - 
+==================================================
+2025-09-17 18:06:00,613 - __main__ - INFO - Running strategy (Run #47) - 2025-09-17 10:06:00 UTC
+2025-09-17 18:06:00,614 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:06:00,622 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:06:00,623 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:06:00,956 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:06:00,956 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:06:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ppy%2F4FV6i2h0uyM0kETjsr7rMEuTpIri9iwWmdsG9RjTrYNDBazjiNhwXPsq%2Fz88LQtH0CzppY54ltBDcY%2Bmhvq76Ajmz95%2B6DZSt3bcJwojNy%2BTt%2BFYT3E2NhlK"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807c9d748e3fe84-SIN'}
+2025-09-17 18:06:00,956 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:06:00,957 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:06:00,957 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:07:00,164 - __main__ - INFO - 
+==================================================
+2025-09-17 18:07:00,166 - __main__ - INFO - Running strategy (Run #48) - 2025-09-17 10:07:00 UTC
+2025-09-17 18:07:00,166 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:07:00,168 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:07:00,168 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:07:00,398 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:07:00,398 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:07:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=na0uwulwbgBfvZdErEUgRSBXGiDQIgtDEQkWXXf5xPx96h56UC5ikT2oa55NOM8Qa8vwPlsCvFg%2BAbyO%2BE6nSYUMFconYxcE9x1YEG4icBcVnleFUBs1x5%2BjU37y"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807cb4b6f73fe84-SIN'}
+2025-09-17 18:07:00,399 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:07:00,400 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:07:00,400 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:08:00,600 - __main__ - INFO - 
+==================================================
+2025-09-17 18:08:00,609 - __main__ - INFO - Running strategy (Run #49) - 2025-09-17 10:08:00 UTC
+2025-09-17 18:08:00,609 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:08:00,614 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:08:00,615 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:08:00,824 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:08:00,824 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:08:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=YJ98s%2BiLc%2FeRTN3PnA8C2KwFI%2BV1tNx6862CLz%2FkyvOHPPjdAhCCd%2BzPfSdxgY6U1otYjFksDH5e%2BWMsDIhB2RDMGoqUojSMiJhUgcOq1a5EAnnJoysas5CrvPNr"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807ccc53e51fe84-SIN'}
+2025-09-17 18:08:00,825 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:08:00,825 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:08:00,825 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:09:00,111 - __main__ - INFO - 
+==================================================
+2025-09-17 18:09:00,114 - __main__ - INFO - Running strategy (Run #50) - 2025-09-17 10:09:00 UTC
+2025-09-17 18:09:00,115 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:09:00,117 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:09:00,117 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:09:00,380 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:09:00,380 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:09:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kBtex1FXYFYbOO2XK5u4EmoI%2FoD8YTxts0%2BfgPSwRu1UPqL8qIRIXa1Ee9FC2Vc5ROuL6jVVz3kjIbU1tDnGyN0FEM9%2BVf4cuf2C%2F45I6XzjSpEEjqQtnH6o3k5k"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807ce392835fe84-SIN'}
+2025-09-17 18:09:00,381 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:09:00,381 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:09:00,381 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:10:00,581 - __main__ - INFO - 
+==================================================
+2025-09-17 18:10:00,584 - __main__ - INFO - Running strategy (Run #51) - 2025-09-17 10:10:00 UTC
+2025-09-17 18:10:00,584 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:10:00,586 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:10:00,587 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:10:00,815 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:10:00,816 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:10:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jG1Igp34irVypGYVIj4sC0%2B6IQhbNWOAzITByAh%2Bts8TykTm%2BX1UnkyKr%2F03aofd86qw6lkzuRIGQ7wQwf%2B5G%2FRSmZc7wcfucEJ049f0CvTFqNpFraIqDE3hy15%2B"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807cfb30938fe84-SIN'}
+2025-09-17 18:10:00,816 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:10:00,816 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:10:00,816 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:11:00,004 - __main__ - INFO - 
+==================================================
+2025-09-17 18:11:00,014 - __main__ - INFO - Running strategy (Run #52) - 2025-09-17 10:11:00 UTC
+2025-09-17 18:11:00,014 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:11:00,016 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:11:00,017 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:11:00,359 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:11:00,360 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:11:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rl4vExUCGt8HWmlSvBmLc0i8P02yWaBm1Zkt2oJiC6t%2FxSWGrITxDGuM4%2BKjZtg8bCofmbZ4Z0SKx6adfFttUw3NvtvSdQLbV96u456wnUXQHTCcwfkReKMtJdRL"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807d126ae0cfe84-SIN'}
+2025-09-17 18:11:00,360 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:11:00,360 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:11:00,360 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:12:00,573 - __main__ - INFO - 
+==================================================
+2025-09-17 18:12:00,576 - __main__ - INFO - Running strategy (Run #53) - 2025-09-17 10:12:00 UTC
+2025-09-17 18:12:00,577 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:12:00,578 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:12:00,579 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:12:01,078 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:12:01,078 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:12:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VnIXgFOeGbEcLwTMg0RGRsjSJXBeCyHHspJeMvfVR%2FdXpL2hrFqUw0aUJ7wjXwqZzsn6%2FcfmnsTCoL9LO3gCofUsCIpnolQm3o8sa9fwsYDHgKy6jvByTUMlGDFJ"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807d2a0f839fe84-SIN'}
+2025-09-17 18:12:01,079 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:12:01,079 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:12:01,079 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:13:00,291 - __main__ - INFO - 
+==================================================
+2025-09-17 18:13:00,304 - __main__ - INFO - Running strategy (Run #54) - 2025-09-17 10:13:00 UTC
+2025-09-17 18:13:00,304 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:13:00,324 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:13:00,324 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:13:00,525 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:13:00,526 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:13:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zf%2FNHe2rv7eaHwWR%2BKGeglkg5hUjGHLAAKG0EOVP4Lur0lnkmH4F8dzX5TuQDSay1wHMMrp282SlgNjVXNCKWbvoT2W0SNfYWAb757IF%2BQvyFutt6UUJMMZWGbTy"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807d4165f34fe84-SIN'}
+2025-09-17 18:13:00,526 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:13:00,526 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:13:00,526 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:14:00,808 - __main__ - INFO - 
+==================================================
+2025-09-17 18:14:00,811 - __main__ - INFO - Running strategy (Run #55) - 2025-09-17 10:14:00 UTC
+2025-09-17 18:14:00,811 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:14:00,813 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:14:00,813 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:14:01,022 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:14:01,023 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:14:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lAYiAHgFlTvRloh7QJWRQd%2B2mSxliRIxz5mzarpeIIO3yCJr14EwosP07BiTJycGggp83Ick6sFauNspY4NXQFMT2EakYy1tk%2BwyWy4uayH7Rjq1RMdk4WfP7DCw"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807d59069e9fe84-SIN'}
+2025-09-17 18:14:01,023 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:14:01,024 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:14:01,024 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:15:00,406 - __main__ - INFO - 
+==================================================
+2025-09-17 18:15:00,409 - __main__ - INFO - Running strategy (Run #56) - 2025-09-17 10:15:00 UTC
+2025-09-17 18:15:00,409 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:15:00,410 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:15:00,410 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:15:00,619 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:15:00,620 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:15:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=sZWCMLK7%2BdoZpoO8xL5o9YavTLGXlB%2FWG%2Bh1uqp0Wg8mzoxQ4rzdsxWsjC6ztiDHfYPgL11%2BX5pR%2FzdJE7rZmbMMzB2D2ezYwHzpjMQ5xxR0c2V40I%2BK9wL%2Foa8u"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807d704eb65fe84-SIN'}
+2025-09-17 18:15:00,620 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:15:00,620 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:15:00,620 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:16:00,997 - __main__ - INFO - 
+==================================================
+2025-09-17 18:16:01,000 - __main__ - INFO - Running strategy (Run #57) - 2025-09-17 10:16:00 UTC
+2025-09-17 18:16:01,000 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:16:01,002 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:16:01,002 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:16:01,205 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:16:01,205 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:16:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qvAxQRVTg%2BCdY3%2FDf%2FpgOlaSaAFGc%2B0xSnaoFMayoLZFAneGDuiVECEXrdeYgS%2FmFZkQOIlHvTr91szvl7bZPLWf2FbZ%2F91u%2BNp7ScET4fNL%2FoIx67dDLM%2Fa8QCc"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807d87f9af6fe84-SIN'}
+2025-09-17 18:16:01,205 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:16:01,205 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:16:01,205 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:17:00,514 - __main__ - INFO - 
+==================================================
+2025-09-17 18:17:00,515 - __main__ - INFO - Running strategy (Run #58) - 2025-09-17 10:17:00 UTC
+2025-09-17 18:17:00,515 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:17:00,515 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:17:00,516 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EURUSD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON'}
+2025-09-17 18:17:00,702 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:17:00,703 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:17:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0QHmvo4b%2Ftuqx8UEbgfrq2HxOKgDhA8ncQX2iSZV%2BHOnissXuES0bz5HogIaso%2FurrTaZ0Yq8%2F9%2FLkZhBMtkrKGDhwrxvx7tU%2Frq7mmHKcP7aYOKYkkHDl9afrt0"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807d9f38b5efe84-SIN'}
+2025-09-17 18:17:00,704 - data_fetcher - DEBUG - API response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:17:00,704 - data_fetcher - ERROR - No 'values' in response for EUR/USD. Full response: {'code': 404, 'message': '**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data', 'status': 'error'}
+2025-09-17 18:17:00,704 - __main__ - WARNING - No data was fetched. Check your API key and internet connection.
+2025-09-17 18:17:29,823 - __main__ - INFO - 
+Shutting down...
+2025-09-17 18:17:29,857 - __main__ - INFO - Trading bot stopped
+2025-09-17 18:18:03,559 - __main__ - INFO - Scheduled to run every minute
+2025-09-17 18:18:03,559 - __main__ - INFO - Next run at: 2025-09-17 10:19:00 UTC (in 56s)
+2025-09-17 18:19:00,790 - __main__ - INFO - 
+==================================================
+2025-09-17 18:19:00,792 - __main__ - INFO - Running strategy (Run #1) - 2025-09-17 10:19:00 UTC
+2025-09-17 18:19:00,792 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:19:00,794 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:19:00,794 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EUR/USD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON', 'exchange': 'OANDA'}
+2025-09-17 18:19:01,293 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:19:01,293 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:19:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'Api-Source-Node': 'T', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8EI4rhjU%2BS1jsO5AYkdZsJz6RvfLlNp84zwy6LhdnbPpE4QWWHA36W1L2UsgLkjay8Ys7APsPm5l%2Bnlha1T%2FY08H%2FVa9UFJNQ0z258fiFFwibk0IJHroTQsmuvsn"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807dce5191bf920-SIN'}
+2025-09-17 18:19:01,294 - data_fetcher - DEBUG - API response: {'meta': {'symbol': 'EUR/USD', 'interval': '1min', 'currency_base': 'Euro', 'currency_quote': 'US Dollar', 'type': 'Physical Currency'}, 'values': [{'datetime': '2025-09-17 20:17:00', 'open': '1.18348', 'high': '1.18354', 'low': '1.1834', 'close': '1.18354'}, {'datetime': '2025-09-17 20:16:00', 'open': '1.18352', 'high': '1.18356', 'low': '1.18345', 'close': '1.18345'}, {'datetime': '2025-09-17 20:15:00', 'open': '1.1835', 'high': '1.18355', 'low': '1.18345', 'close': '1.1835'}, {'datetime': '2025-09-17 20:14:00', 'open': '1.18345', 'high': '1.18358', 'low': '1.18344', 'close': '1.18349'}, {'datetime': '2025-09-17 20:13:00', 'open': '1.18359', 'high': '1.18359', 'low': '1.18327', 'close': '1.18346'}, {'datetime': '2025-09-17 20:12:00', 'open': '1.18406', 'high': '1.18408', 'low': '1.18359', 'close': '1.18361'}, {'datetime': '2025-09-17 20:11:00', 'open': '1.18402', 'high': '1.18411', 'low': '1.18401', 'close': '1.18404'}, {'datetime': '2025-09-17 20:10:00', 'open': '1.18423', 'high': '1.18423', 'low': '1.184', 'close': '1.18401'}, {'datetime': '2025-09-17 20:09:00', 'open': '1.18426', 'high': '1.18426', 'low': '1.18422', 'close': '1.18423'}, {'datetime': '2025-09-17 20:08:00', 'open': '1.18425', 'high': '1.18429', 'low': '1.18425', 'close': '1.18426'}, {'datetime': '2025-09-17 20:07:00', 'open': '1.18434', 'high': '1.18435', 'low': '1.18426', 'close': '1.18426'}, {'datetime': '2025-09-17 20:06:00', 'open': '1.18438', 'high': '1.18447', 'low': '1.18433', 'close': '1.18435'}, {'datetime': '2025-09-17 20:05:00', 'open': '1.18443', 'high': '1.18443', 'low': '1.18437', 'close': '1.18438'}, {'datetime': '2025-09-17 20:04:00', 'open': '1.18463', 'high': '1.18468', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 20:03:00', 'open': '1.18452', 'high': '1.18463', 'low': '1.18452', 'close': '1.18462'}, {'datetime': '2025-09-17 20:02:00', 'open': '1.18457', 'high': '1.18457', 'low': '1.18448', 'close': '1.18452'}, {'datetime': '2025-09-17 20:01:00', 'open': '1.18452', 'high': '1.18458', 'low': '1.18452', 'close': '1.18455'}, {'datetime': '2025-09-17 20:00:00', 'open': '1.18453', 'high': '1.18458', 'low': '1.18448', 'close': '1.18453'}, {'datetime': '2025-09-17 19:59:00', 'open': '1.18449', 'high': '1.18455', 'low': '1.18449', 'close': '1.18455'}, {'datetime': '2025-09-17 19:58:00', 'open': '1.1846', 'high': '1.18462', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 19:57:00', 'open': '1.18462', 'high': '1.18464', 'low': '1.18455', 'close': '1.1846'}, {'datetime': '2025-09-17 19:56:00', 'open': '1.18458', 'high': '1.18466', 'low': '1.18453', 'close': '1.18463'}, {'datetime': '2025-09-17 19:55:00', 'open': '1.18472', 'high': '1.18472', 'low': '1.18451', 'close': '1.18453'}, {'datetime': '2025-09-17 19:54:00', 'open': '1.18453', 'high': '1.18473', 'low': '1.18449', 'close': '1.18473'}, {'datetime': '2025-09-17 19:53:00', 'open': '1.18448', 'high': '1.18454', 'low': '1.18446', 'close': '1.18453'}, {'datetime': '2025-09-17 19:52:00', 'open': '1.18457', 'high': '1.18458', 'low': '1.18446', 'close': '1.18447'}, {'datetime': '2025-09-17 19:51:00', 'open': '1.18466', 'high': '1.18466', 'low': '1.18455', 'close': '1.18457'}, {'datetime': '2025-09-17 19:50:00', 'open': '1.1846', 'high': '1.18468', 'low': '1.18457', 'close': '1.18467'}, {'datetime': '2025-09-17 19:49:00', 'open': '1.18463', 'high': '1.18475', 'low': '1.18455', 'close': '1.18461'}, {'datetime': '2025-09-17 19:48:00', 'open': '1.18476', 'high': '1.18476', 'low': '1.18462', 'close': '1.18464'}], 'status': 'ok'}
+2025-09-17 18:19:01,505 - data_fetcher - DEBUG - Cached data for EUR/USD to /Users/apple/Metasync-Dashboard/data/cache/1022f7fa1fa93ae0faeaf64f611314e7.parquet
+2025-09-17 18:19:01,506 - data_fetcher - INFO - Saved 30 1min data points to /Users/apple/Metasync-Dashboard/data/EUR_USD_1min.parquet
+2025-09-17 18:19:01,506 - data_fetcher - INFO - Successfully saved data for 1 symbols
+2025-09-17 18:19:01,506 - __main__ - INFO - Generating trading signals...
+2025-09-17 18:19:01,514 - signals - ERROR - Error calculating indicators: 'volume'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'volume'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/signals.py", line 155, in calculate_indicators
+    df['volume_sma'] = df['volume'].rolling(window=self.min_volume_periods).mean()
+                       ~~^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'volume'
+2025-09-17 18:19:01,520 - signals - WARNING - Missing required columns for signal generation
+2025-09-17 18:19:01,520 - __main__ - ERROR - Error in run_strategy: cannot unpack non-iterable TradeSignal object
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/main.py", line 79, in run_strategy
+    execute_signals(signals, paper_trading=self.paper_trading)
+  File "/Users/apple/Metasync-Dashboard/executor.py", line 126, in execute_signals
+    for symbol, (signal, price, z_score) in signals.items():
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable TradeSignal object
+2025-09-17 18:20:00,753 - __main__ - INFO - 
+==================================================
+2025-09-17 18:20:00,754 - __main__ - INFO - Running strategy (Run #2) - 2025-09-17 10:20:00 UTC
+2025-09-17 18:20:00,755 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:20:00,756 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:20:00,756 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EUR/USD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON', 'exchange': 'OANDA'}
+2025-09-17 18:20:00,968 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:20:00,968 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:20:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'Api-Source-Node': 'T', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=p2mQjmXESLQVXcMCRdA8%2FW75c4DihXIHdOfHffNm0b3Bbxf2Lbvlu1yTpQnaB21OKKvS9yk4qQB5l1c35eubUDESruaEEqERVQbO0ykyhhdwHeZpAGksht8X4yK4"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807de5a1cbcf920-SIN'}
+2025-09-17 18:20:00,968 - data_fetcher - DEBUG - API response: {'meta': {'symbol': 'EUR/USD', 'interval': '1min', 'currency_base': 'Euro', 'currency_quote': 'US Dollar', 'type': 'Physical Currency'}, 'values': [{'datetime': '2025-09-17 20:18:00', 'open': '1.18358', 'high': '1.18358', 'low': '1.18353', 'close': '1.18355'}, {'datetime': '2025-09-17 20:17:00', 'open': '1.18348', 'high': '1.18357', 'low': '1.1834', 'close': '1.18357'}, {'datetime': '2025-09-17 20:16:00', 'open': '1.18352', 'high': '1.18356', 'low': '1.18345', 'close': '1.18345'}, {'datetime': '2025-09-17 20:15:00', 'open': '1.1835', 'high': '1.18355', 'low': '1.18345', 'close': '1.1835'}, {'datetime': '2025-09-17 20:14:00', 'open': '1.18345', 'high': '1.18358', 'low': '1.18344', 'close': '1.18349'}, {'datetime': '2025-09-17 20:13:00', 'open': '1.18359', 'high': '1.18359', 'low': '1.18327', 'close': '1.18346'}, {'datetime': '2025-09-17 20:12:00', 'open': '1.18406', 'high': '1.18408', 'low': '1.18359', 'close': '1.18361'}, {'datetime': '2025-09-17 20:11:00', 'open': '1.18402', 'high': '1.18411', 'low': '1.18401', 'close': '1.18404'}, {'datetime': '2025-09-17 20:10:00', 'open': '1.18423', 'high': '1.18423', 'low': '1.184', 'close': '1.18401'}, {'datetime': '2025-09-17 20:09:00', 'open': '1.18426', 'high': '1.18426', 'low': '1.18422', 'close': '1.18423'}, {'datetime': '2025-09-17 20:08:00', 'open': '1.18425', 'high': '1.18429', 'low': '1.18425', 'close': '1.18426'}, {'datetime': '2025-09-17 20:07:00', 'open': '1.18434', 'high': '1.18435', 'low': '1.18426', 'close': '1.18426'}, {'datetime': '2025-09-17 20:06:00', 'open': '1.18438', 'high': '1.18447', 'low': '1.18433', 'close': '1.18435'}, {'datetime': '2025-09-17 20:05:00', 'open': '1.18443', 'high': '1.18443', 'low': '1.18437', 'close': '1.18438'}, {'datetime': '2025-09-17 20:04:00', 'open': '1.18463', 'high': '1.18468', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 20:03:00', 'open': '1.18452', 'high': '1.18463', 'low': '1.18452', 'close': '1.18462'}, {'datetime': '2025-09-17 20:02:00', 'open': '1.18457', 'high': '1.18457', 'low': '1.18448', 'close': '1.18452'}, {'datetime': '2025-09-17 20:01:00', 'open': '1.18452', 'high': '1.18458', 'low': '1.18452', 'close': '1.18455'}, {'datetime': '2025-09-17 20:00:00', 'open': '1.18453', 'high': '1.18458', 'low': '1.18448', 'close': '1.18453'}, {'datetime': '2025-09-17 19:59:00', 'open': '1.18449', 'high': '1.18455', 'low': '1.18449', 'close': '1.18455'}, {'datetime': '2025-09-17 19:58:00', 'open': '1.1846', 'high': '1.18462', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 19:57:00', 'open': '1.18462', 'high': '1.18464', 'low': '1.18455', 'close': '1.1846'}, {'datetime': '2025-09-17 19:56:00', 'open': '1.18458', 'high': '1.18466', 'low': '1.18453', 'close': '1.18463'}, {'datetime': '2025-09-17 19:55:00', 'open': '1.18472', 'high': '1.18472', 'low': '1.18451', 'close': '1.18453'}, {'datetime': '2025-09-17 19:54:00', 'open': '1.18453', 'high': '1.18473', 'low': '1.18449', 'close': '1.18473'}, {'datetime': '2025-09-17 19:53:00', 'open': '1.18448', 'high': '1.18454', 'low': '1.18446', 'close': '1.18453'}, {'datetime': '2025-09-17 19:52:00', 'open': '1.18457', 'high': '1.18458', 'low': '1.18446', 'close': '1.18447'}, {'datetime': '2025-09-17 19:51:00', 'open': '1.18466', 'high': '1.18466', 'low': '1.18455', 'close': '1.18457'}, {'datetime': '2025-09-17 19:50:00', 'open': '1.1846', 'high': '1.18468', 'low': '1.18457', 'close': '1.18467'}, {'datetime': '2025-09-17 19:49:00', 'open': '1.18463', 'high': '1.18475', 'low': '1.18455', 'close': '1.18461'}], 'status': 'ok'}
+2025-09-17 18:20:00,986 - data_fetcher - DEBUG - Cached data for EUR/USD to /Users/apple/Metasync-Dashboard/data/cache/1022f7fa1fa93ae0faeaf64f611314e7.parquet
+2025-09-17 18:20:00,988 - data_fetcher - INFO - Saved 30 1min data points to /Users/apple/Metasync-Dashboard/data/EUR_USD_1min.parquet
+2025-09-17 18:20:00,988 - data_fetcher - INFO - Successfully saved data for 1 symbols
+2025-09-17 18:20:00,988 - __main__ - INFO - Generating trading signals...
+2025-09-17 18:20:00,992 - signals - ERROR - Error calculating indicators: 'volume'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'volume'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/signals.py", line 155, in calculate_indicators
+    high_close = (df['high'] - df['close'].shift()).abs()
+                       ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'volume'
+2025-09-17 18:20:00,994 - signals - WARNING - Missing required columns for signal generation
+2025-09-17 18:20:00,994 - __main__ - ERROR - Error in run_strategy: cannot unpack non-iterable TradeSignal object
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/main.py", line 79, in run_strategy
+    execute_signals(signals, paper_trading=self.paper_trading)
+  File "/Users/apple/Metasync-Dashboard/executor.py", line 126, in execute_signals
+    for symbol, (signal, price, z_score) in signals.items():
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable TradeSignal object
+2025-09-17 18:21:00,196 - __main__ - INFO - 
+==================================================
+2025-09-17 18:21:00,199 - __main__ - INFO - Running strategy (Run #3) - 2025-09-17 10:21:00 UTC
+2025-09-17 18:21:00,199 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:21:00,200 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:21:00,201 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EUR/USD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON', 'exchange': 'OANDA'}
+2025-09-17 18:21:00,432 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:21:00,433 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:21:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'Api-Source-Node': 'T', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eEykuqI7X2X5gotXFI75ufutHSqOIVyZHADvFgTgbhqdJph3kfauL4ahXNAER96OGJTGK%2FuoduCdk6hWMwiOfwhnJmrDJFpAi05bIsIfBWXTFtOwEmq590IgsBCK"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807dfcdac29f920-SIN'}
+2025-09-17 18:21:00,433 - data_fetcher - DEBUG - API response: {'meta': {'symbol': 'EUR/USD', 'interval': '1min', 'currency_base': 'Euro', 'currency_quote': 'US Dollar', 'type': 'Physical Currency'}, 'values': [{'datetime': '2025-09-17 20:19:00', 'open': '1.18357', 'high': '1.18359', 'low': '1.18357', 'close': '1.18358'}, {'datetime': '2025-09-17 20:18:00', 'open': '1.18358', 'high': '1.18358', 'low': '1.18353', 'close': '1.18355'}, {'datetime': '2025-09-17 20:17:00', 'open': '1.18348', 'high': '1.18357', 'low': '1.1834', 'close': '1.18357'}, {'datetime': '2025-09-17 20:16:00', 'open': '1.18352', 'high': '1.18356', 'low': '1.18345', 'close': '1.18345'}, {'datetime': '2025-09-17 20:15:00', 'open': '1.1835', 'high': '1.18355', 'low': '1.18345', 'close': '1.1835'}, {'datetime': '2025-09-17 20:14:00', 'open': '1.18345', 'high': '1.18358', 'low': '1.18344', 'close': '1.18349'}, {'datetime': '2025-09-17 20:13:00', 'open': '1.18359', 'high': '1.18359', 'low': '1.18327', 'close': '1.18346'}, {'datetime': '2025-09-17 20:12:00', 'open': '1.18406', 'high': '1.18408', 'low': '1.18359', 'close': '1.18361'}, {'datetime': '2025-09-17 20:11:00', 'open': '1.18402', 'high': '1.18411', 'low': '1.18401', 'close': '1.18404'}, {'datetime': '2025-09-17 20:10:00', 'open': '1.18423', 'high': '1.18423', 'low': '1.184', 'close': '1.18401'}, {'datetime': '2025-09-17 20:09:00', 'open': '1.18426', 'high': '1.18426', 'low': '1.18422', 'close': '1.18423'}, {'datetime': '2025-09-17 20:08:00', 'open': '1.18425', 'high': '1.18429', 'low': '1.18425', 'close': '1.18426'}, {'datetime': '2025-09-17 20:07:00', 'open': '1.18434', 'high': '1.18435', 'low': '1.18426', 'close': '1.18426'}, {'datetime': '2025-09-17 20:06:00', 'open': '1.18438', 'high': '1.18447', 'low': '1.18433', 'close': '1.18435'}, {'datetime': '2025-09-17 20:05:00', 'open': '1.18443', 'high': '1.18443', 'low': '1.18437', 'close': '1.18438'}, {'datetime': '2025-09-17 20:04:00', 'open': '1.18463', 'high': '1.18468', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 20:03:00', 'open': '1.18452', 'high': '1.18463', 'low': '1.18452', 'close': '1.18462'}, {'datetime': '2025-09-17 20:02:00', 'open': '1.18457', 'high': '1.18457', 'low': '1.18448', 'close': '1.18452'}, {'datetime': '2025-09-17 20:01:00', 'open': '1.18452', 'high': '1.18458', 'low': '1.18452', 'close': '1.18455'}, {'datetime': '2025-09-17 20:00:00', 'open': '1.18453', 'high': '1.18458', 'low': '1.18448', 'close': '1.18453'}, {'datetime': '2025-09-17 19:59:00', 'open': '1.18449', 'high': '1.18455', 'low': '1.18449', 'close': '1.18455'}, {'datetime': '2025-09-17 19:58:00', 'open': '1.1846', 'high': '1.18462', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 19:57:00', 'open': '1.18462', 'high': '1.18464', 'low': '1.18455', 'close': '1.1846'}, {'datetime': '2025-09-17 19:56:00', 'open': '1.18458', 'high': '1.18466', 'low': '1.18453', 'close': '1.18463'}, {'datetime': '2025-09-17 19:55:00', 'open': '1.18472', 'high': '1.18472', 'low': '1.18451', 'close': '1.18453'}, {'datetime': '2025-09-17 19:54:00', 'open': '1.18453', 'high': '1.18473', 'low': '1.18449', 'close': '1.18473'}, {'datetime': '2025-09-17 19:53:00', 'open': '1.18448', 'high': '1.18454', 'low': '1.18446', 'close': '1.18453'}, {'datetime': '2025-09-17 19:52:00', 'open': '1.18457', 'high': '1.18458', 'low': '1.18446', 'close': '1.18447'}, {'datetime': '2025-09-17 19:51:00', 'open': '1.18466', 'high': '1.18466', 'low': '1.18455', 'close': '1.18457'}, {'datetime': '2025-09-17 19:50:00', 'open': '1.1846', 'high': '1.18468', 'low': '1.18457', 'close': '1.18467'}], 'status': 'ok'}
+2025-09-17 18:21:00,460 - data_fetcher - DEBUG - Cached data for EUR/USD to /Users/apple/Metasync-Dashboard/data/cache/1022f7fa1fa93ae0faeaf64f611314e7.parquet
+2025-09-17 18:21:00,462 - data_fetcher - INFO - Saved 30 1min data points to /Users/apple/Metasync-Dashboard/data/EUR_USD_1min.parquet
+2025-09-17 18:21:00,462 - data_fetcher - INFO - Successfully saved data for 1 symbols
+2025-09-17 18:21:00,462 - __main__ - INFO - Generating trading signals...
+2025-09-17 18:21:00,468 - signals - ERROR - Error calculating indicators: 'volume'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'volume'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/signals.py", line 155, in calculate_indicators
+    high_close = (df['high'] - df['close'].shift()).abs()
+                       ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'volume'
+2025-09-17 18:21:00,470 - signals - WARNING - Missing required columns for signal generation
+2025-09-17 18:21:00,471 - __main__ - ERROR - Error in run_strategy: cannot unpack non-iterable TradeSignal object
+Traceback (most recent call last):
+  File "/Users/apple/Metasync-Dashboard/main.py", line 79, in run_strategy
+    execute_signals(signals, paper_trading=self.paper_trading)
+  File "/Users/apple/Metasync-Dashboard/executor.py", line 126, in execute_signals
+    for symbol, (signal, price, z_score) in signals.items():
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable TradeSignal object
+2025-09-17 18:21:23,497 - __main__ - INFO - 
+Shutting down...
+2025-09-17 18:21:23,498 - __main__ - INFO - Trading bot stopped
+2025-09-17 18:22:33,528 - __main__ - INFO - Scheduled to run every minute
+2025-09-17 18:22:33,529 - __main__ - INFO - Next run at: 2025-09-17 10:23:00 UTC (in 26s)
+2025-09-17 18:23:00,627 - __main__ - INFO - 
+==================================================
+2025-09-17 18:23:00,629 - __main__ - INFO - Running strategy (Run #1) - 2025-09-17 10:23:00 UTC
+2025-09-17 18:23:00,629 - __main__ - INFO - Fetching 1min data for 1 symbols...
+2025-09-17 18:23:00,631 - data_fetcher - INFO - Fetching EUR/USD 1min data from API...
+2025-09-17 18:23:00,631 - data_fetcher - DEBUG - Making request to https://api.twelvedata.com/time_series with params: {'symbol': 'EUR/USD', 'interval': '1min', 'apikey': '38d9238bd23d4564a2c1f92870b9c9f4', 'format': 'JSON', 'exchange': 'OANDA'}
+2025-09-17 18:23:00,925 - data_fetcher - DEBUG - Response status: 200
+2025-09-17 18:23:00,925 - data_fetcher - DEBUG - Response headers: {'Date': 'Wed, 17 Sep 2025 10:23:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Content-Type, Accept-Encoding, Authorization, Accept, Origin, X-Requested-With, X-CSRF-TOKEN', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Origin': '*', 'Api-Credits-Left': '7', 'Api-Credits-Request': '1', 'Api-Credits-Used': '1', 'Api-Source-Node': 'T', 'cf-cache-status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1vsp81aopY%2FIt9We%2FaB8YO2RngIL4pbZxGkCfeYhEtPGXLE7TRS8Z7BOchsa2%2FjpX%2FNTa3VdKdo74IdeRBkmMnylEkpHHC%2Bk8oFhkQ0Jl6rmM2%2F9OG7FQ5hDl61x"}]}', 'Content-Encoding': 'br', 'CF-RAY': '9807e2bedcc0f8e2-SIN'}
+2025-09-17 18:23:00,925 - data_fetcher - DEBUG - API response: {'meta': {'symbol': 'EUR/USD', 'interval': '1min', 'currency_base': 'Euro', 'currency_quote': 'US Dollar', 'type': 'Physical Currency'}, 'values': [{'datetime': '2025-09-17 20:21:00', 'open': '1.18359', 'high': '1.18359', 'low': '1.1835', 'close': '1.18354'}, {'datetime': '2025-09-17 20:20:00', 'open': '1.18357', 'high': '1.18369', 'low': '1.18356', 'close': '1.18359'}, {'datetime': '2025-09-17 20:19:00', 'open': '1.18357', 'high': '1.18359', 'low': '1.18357', 'close': '1.18358'}, {'datetime': '2025-09-17 20:18:00', 'open': '1.18358', 'high': '1.18358', 'low': '1.18353', 'close': '1.18355'}, {'datetime': '2025-09-17 20:17:00', 'open': '1.18348', 'high': '1.18357', 'low': '1.1834', 'close': '1.18357'}, {'datetime': '2025-09-17 20:16:00', 'open': '1.18352', 'high': '1.18356', 'low': '1.18345', 'close': '1.18345'}, {'datetime': '2025-09-17 20:15:00', 'open': '1.1835', 'high': '1.18355', 'low': '1.18345', 'close': '1.1835'}, {'datetime': '2025-09-17 20:14:00', 'open': '1.18345', 'high': '1.18358', 'low': '1.18344', 'close': '1.18349'}, {'datetime': '2025-09-17 20:13:00', 'open': '1.18359', 'high': '1.18359', 'low': '1.18327', 'close': '1.18346'}, {'datetime': '2025-09-17 20:12:00', 'open': '1.18406', 'high': '1.18408', 'low': '1.18359', 'close': '1.18361'}, {'datetime': '2025-09-17 20:11:00', 'open': '1.18402', 'high': '1.18411', 'low': '1.18401', 'close': '1.18404'}, {'datetime': '2025-09-17 20:10:00', 'open': '1.18423', 'high': '1.18423', 'low': '1.184', 'close': '1.18401'}, {'datetime': '2025-09-17 20:09:00', 'open': '1.18426', 'high': '1.18426', 'low': '1.18422', 'close': '1.18423'}, {'datetime': '2025-09-17 20:08:00', 'open': '1.18425', 'high': '1.18429', 'low': '1.18425', 'close': '1.18426'}, {'datetime': '2025-09-17 20:07:00', 'open': '1.18434', 'high': '1.18435', 'low': '1.18426', 'close': '1.18426'}, {'datetime': '2025-09-17 20:06:00', 'open': '1.18438', 'high': '1.18447', 'low': '1.18433', 'close': '1.18435'}, {'datetime': '2025-09-17 20:05:00', 'open': '1.18443', 'high': '1.18443', 'low': '1.18437', 'close': '1.18438'}, {'datetime': '2025-09-17 20:04:00', 'open': '1.18463', 'high': '1.18468', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 20:03:00', 'open': '1.18452', 'high': '1.18463', 'low': '1.18452', 'close': '1.18462'}, {'datetime': '2025-09-17 20:02:00', 'open': '1.18457', 'high': '1.18457', 'low': '1.18448', 'close': '1.18452'}, {'datetime': '2025-09-17 20:01:00', 'open': '1.18452', 'high': '1.18458', 'low': '1.18452', 'close': '1.18455'}, {'datetime': '2025-09-17 20:00:00', 'open': '1.18453', 'high': '1.18458', 'low': '1.18448', 'close': '1.18453'}, {'datetime': '2025-09-17 19:59:00', 'open': '1.18449', 'high': '1.18455', 'low': '1.18449', 'close': '1.18455'}, {'datetime': '2025-09-17 19:58:00', 'open': '1.1846', 'high': '1.18462', 'low': '1.18448', 'close': '1.18448'}, {'datetime': '2025-09-17 19:57:00', 'open': '1.18462', 'high': '1.18464', 'low': '1.18455', 'close': '1.1846'}, {'datetime': '2025-09-17 19:56:00', 'open': '1.18458', 'high': '1.18466', 'low': '1.18453', 'close': '1.18463'}, {'datetime': '2025-09-17 19:55:00', 'open': '1.18472', 'high': '1.18472', 'low': '1.18451', 'close': '1.18453'}, {'datetime': '2025-09-17 19:54:00', 'open': '1.18453', 'high': '1.18473', 'low': '1.18449', 'close': '1.18473'}, {'datetime': '2025-09-17 19:53:00', 'open': '1.18448', 'high': '1.18454', 'low': '1.18446', 'close': '1.18453'}, {'datetime': '2025-09-17 19:52:00', 'open': '1.18457', 'high': '1.18458', 'low': '1.18446', 'close': '1.18447'}], 'status': 'ok'}
+2025-09-17 18:23:00,983 - data_fetcher - DEBUG - Cached data for EUR/USD to /Users/apple/Metasync-Dashboard/data/cache/1022f7fa1fa93ae0faeaf64f611314e7.parquet
+2025-09-17 18:23:00,984 - data_fetcher - INFO - Saved 30 1min data points to /Users/apple/Metasync-Dashboard/data/EUR_USD_1min.parquet
+2025-09-17 18:23:00,984 - data_fetcher - INFO - Successfully saved data for 1 symbols
+2025-09-17 18:23:00,984 - __main__ - INFO - Generating trading signals...
+2025-09-17 18:23:00,992 - __main__ - INFO - Strategy completed in 0.37 seconds
+2025-09-17 18:23:49,074 - __main__ - INFO - 
+Shutting down...
+2025-09-17 18:23:49,079 - __main__ - INFO - Trading bot stopped

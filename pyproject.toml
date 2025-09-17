@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "metasync-dashboard"
+version = "0.1.0"
+description = "A mean reversion trading system for forex"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "metasync_dashboard"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+requests = "^2.31.0"
+pydantic = "^2.0.0"
+python-dotenv = "^1.0.0"
+pyarrow = "^12.0.0"  # For parquet support
+schedule = "^1.2.0"
+python-dateutil = "^2.8.2"
+matplotlib = { version = "^3.7.0", optional = true }  # For plotting
+scipy = { version = "^1.10.0", optional = true }  # For advanced statistics
+ta = { version = "^0.10.0", optional = true }  # Technical analysis library
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.11.1"
+black = "^23.7.0"
+isort = "^5.12.0"
+mypy = "^1.4.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
